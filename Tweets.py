@@ -2,10 +2,10 @@ from twython import Twython
 
 def twitterr():
 
-    TWITTER_APP_KEY = ''
-    TWITTER_APP_KEY_SECRET = ''
-    TWITTER_ACCESS_TOKEN = ''
-    TWITTER_ACCESS_TOKEN_SECRET =''
+    TWITTER_APP_KEY = '' # App Public Key
+    TWITTER_APP_KEY_SECRET = '' # App Private Key
+    TWITTER_ACCESS_TOKEN = '' # Access Public Token
+    TWITTER_ACCESS_TOKEN_SECRET ='' # Access Private Token
     my_tweet = Twython(app_key=TWITTER_APP_KEY,
                 app_secret=TWITTER_APP_KEY_SECRET,
                 oauth_token=TWITTER_ACCESS_TOKEN,
